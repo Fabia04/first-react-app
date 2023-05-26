@@ -28,7 +28,7 @@ let selectedIndex = 0;
               <li 
               className="list-group-item"
                key={item} 
-              onClick={handleClick}
+              onClick={()=> console.log(item)}
               >
                 {item}
                 </li>
